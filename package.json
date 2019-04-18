@@ -1,0 +1,18 @@
+{
+  "name": "find-root-ca-cert",
+  "version": "1.0.0",
+  "description": "Finds the first available local CA certificate on Linux machines",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "ca",
+    "root",
+    "root-ca",
+    "find",
+    "pem"
+  ],
+  "author": "Nemo <me@captnemo.in>",
+  "license": "MIT"
+}
