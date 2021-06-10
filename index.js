@@ -11,7 +11,7 @@ let accessSyncBool = function(path, mode = fs.constants.R_OK) {
 };
 
 let findCABundle = () =>
-  PATHS.FILES.find(
+  PATHS[process.platform].files.find(
     e =>
       fs.existsSync(e) &&
       fs.existsSync(fs.realpathSync(e)) &&
@@ -20,7 +20,7 @@ let findCABundle = () =>
   );
 
 let findCAPath = () =>
-  PATHS.DIRECTORIES.find(
+  PATHS[process.platform].directories.find(
     e =>
       fs.existsSync(e) &&
       fs.existsSync(fs.realpathSync(e)) &&

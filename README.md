@@ -16,6 +16,14 @@ certFinder.findCABundle();
 // /etc/ssl/certs/ca-certificates.crt
 ```
 
+## Supported Platforms
+
+    'aix', 'freebsd', 'linux', 'openbsd', 'sunos'
+
+## Unsupported Platforms
+
+    'ios', 'darwin', 'win32'
+
 ## License
 
 Licensed under the [MIT License](https://nemo.mit-license.org/). See LICENSE file for details.
