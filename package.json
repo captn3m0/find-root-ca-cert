@@ -1,6 +1,6 @@
 {
   "name": "find-root-ca-cert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Finds the first available local CA certificate on Linux machines",
   "main": "index.js",
   "scripts": {
